@@ -1,0 +1,56 @@
+.footer-nav {
+  padding: 10px 0;
+}
+.mivamart-two {
+  margin-top: -20px;
+}
+footer {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+  width: Hug (515px) px;
+  height: Fixed (36px) px;
+  gap: 24px;
+  opacity: 0px;
+}
+footer img {
+  margin: 10px;
+}
+footer h3 {
+  color: #0e4947;
+  size: 18px;
+  line-height: 1;
+  font-weight: 600;
+}
+footer p {
+  color: #0e4947;
+  font-family: Open Sans;
+  size: 14px;
+  font-weight: 400;
+}
+.company p {
+  margin-top: 40px;
+}
+
+hr {
+  margin-top: -40px;
+  color: #d75252;
+}
+.footer-submit {
+  background: #20a39e;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.footer-submit:hover {
+  color: black;
+}
+.copyright {
+  background: #20a39e;
+  padding: 10px 10px 10px 10px;
+}

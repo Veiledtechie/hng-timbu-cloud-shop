@@ -29,7 +29,7 @@ import Rectangleeighteen from "./Rectangleeighteen.png";
 
 export default function Products() {
   return (
-    <div className="header">
+    <div className=" container header">
       <nav className="d-flex justify-content-between mt-5">
         <ul className="featured-categories">
           <li className="featured">Featured categories</li>
@@ -406,19 +406,19 @@ export default function Products() {
       <section>
         <div className="d-flex justify-content-between">
           <ul className="section-box">
-            <p>
+            <li className="p">
               <i class="fa-solid fa-angle-left"></i>
-            </p>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
+            </li>
+            <li className="section-number">1</li>
+            <li className="section-number">2</li>
+            <li className="section-number section-numberthree">3</li>
+            <li className="section-number">4</li>
+            <li className="section-number">5</li>
+            <li className="p">...</li>
+            <li className="p">
+              <i class="fa-solid fa-angle-right"></i>
+            </li>
           </ul>
-          <p>...</p>
-          <p>
-            <i class="fa-solid fa-angle-right"></i>
-          </p>
         </div>
       </section>
     </div>

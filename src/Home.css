@@ -138,16 +138,22 @@ nav a {
 .section-box {
   display: inline-flex;
   list-style: none;
-  line-height: 10px;
+  line-height: 20px;
 
-  gap: 10px;
+  gap: 5px;
 
   margin-left: 900px;
 }
-section li {
+.section-number {
   border: 1px solid #bfc5c4;
   padding: 4px 10px 4px 10px;
   border-radius: 15px;
+  margin-top: 10px;
+  color: #d75252;
 }
-section p {
+.p {
+  margin-top: 16px;
+}
+.section-numberthree {
+  background-color: #0e4947;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "./Home.css";
 import Products from "./Products";
+import Footer from "./Footer";
+import Extrafooter from "./Extrafooter";
 import MivamartImage from "./MivamartImage.jpg";
 import Wishlist from "./Wishlist.jpg";
 import Search from "./Search.jpg";
@@ -11,7 +13,7 @@ import Rectangletwo from "./Rectangletwo.png";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div>
       <nav className="d-flex justify-content-between">
         <img
           src={MivamartImage}
@@ -82,6 +84,8 @@ export default function Home() {
         </div>
       </section>
       <Products />
+      <Footer />
+      <Extrafooter />
     </div>
   );
 }
