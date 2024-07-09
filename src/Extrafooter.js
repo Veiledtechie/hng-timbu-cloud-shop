@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
-export default function Anotherfooter() {
+export default function Extrafooter() {
   return (
     <div>
       <section className="mt-5">
@@ -9,6 +9,17 @@ export default function Anotherfooter() {
           ©2024 MivaMart All right reserved.
         </div>
       </section>
+<footer className="mt-5">
+
+<span >Item added to cart</span>
+<span >Item added to cart</span>
+
+
+</footer>
+
+
+
+
     </div>
   );
 }
