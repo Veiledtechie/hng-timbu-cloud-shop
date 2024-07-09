@@ -50,12 +50,28 @@ nav a {
 }
 .search-icon {
   position: absolute;
-  left: 16px;
+  left: 25px;
   top: 10px;
   display: flex;
   justify-content: center;
   cursor: pointer;
   text-align: center;
+}
+.search-word{
+color:#20A39E;
+  position:absolute;
+  left:90px;
+  top:10px;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
+.search-icontwo{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
 }
 .products-label {
   color: #20a39e;

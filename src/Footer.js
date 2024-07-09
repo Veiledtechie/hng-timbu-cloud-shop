@@ -53,6 +53,7 @@ export default function Footer() {
           <img src={Paypal} alt="" />
         </div>
       </footer>
+     
     </div>
   );
 }
