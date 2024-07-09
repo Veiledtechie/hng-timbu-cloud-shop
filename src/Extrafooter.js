@@ -9,13 +9,7 @@ export default function Extrafooter() {
           ©2024 MivaMart All right reserved.
         </div>
       </section>
-<footer className="mt-5">
 
-<span >Item added to cart</span>
-<span >Item added to cart</span>
-
-
-</footer>
 
 
 

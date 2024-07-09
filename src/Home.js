@@ -4,6 +4,7 @@ import Searchbox from "./Searchbox"
 import Products from "./Products"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
+
 import Extrafooter from "./Extrafooter";
 import Rectangleone from "./Rectangleone.png";
 import Rectangletwo from "./Rectangletwo.png";
@@ -35,6 +36,7 @@ export default function Home() {
       <Products />
       <Footer />
       <Extrafooter />
+      
     </div>
   );
 }
